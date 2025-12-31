@@ -1,0 +1,19 @@
+[project]
+name = "fastapi-auth-mini"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "aiosqlite>=0.22.1",
+    "alembic>=1.17.2",
+    "asyncpg>=0.31.0",
+    "fastapi[argon2,standard]>=0.128.0",
+    "jwt>=1.4.0",
+    "psycopg2-binary>=2.9.11",
+    "pwdlib[argon2]>=0.3.0",
+    "pyjwt>=2.10.1",
+    "python-dotenv>=1.2.1",
+    "ruff>=0.14.10",
+    "sqlmodel>=0.0.31",
+]

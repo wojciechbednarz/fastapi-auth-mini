@@ -1,0 +1,36 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+.lock
+
+__pycache__/
+.env
+.venv/
+venv/
+node_modules/
+dist/
+build/
+.allure/
+allure-results/
+coverage/
+.idea/
+.vscode/
+*.log
+
+.db
+
+.ruff_cache/
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.swp
